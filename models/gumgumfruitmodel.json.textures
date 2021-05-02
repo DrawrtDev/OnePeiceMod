@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "gumgumtexture"
+      },
+      "name": "default"
+    },
+    "texture": {
+      "map": {
+        "0": "gumgumtexture"
+      },
+      "name": "texture"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "chop_chop_texture",
+    "customModelName": "Normal",
+    "name": "Chop Chop Fruit",
+    "rarity": "EPIC",
+    "specialInfo": [
+      "Devil Fruit"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 1,
+    "nutritionalValue": -1,
+    "saturation": 0.3,
+    "eatingSpeed": 64,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "ChopChopFruitFoodEaten"
+    }
+  }
+}

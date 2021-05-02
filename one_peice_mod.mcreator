@@ -1,0 +1,152 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "GumGumFruit",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gum_gum_fruit"
+    },
+    {
+      "name": "ChopChopImmune",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chop_chop_immune",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChopChopFruit",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chop_chop_fruit"
+    },
+    {
+      "name": "ChopChopFruitFoodEaten",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chop_chop_fruit_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrimaryAbility",
+      "type": "keybind",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "primary_ability"
+    },
+    {
+      "name": "PrimaryAbilityOnKeyPressed",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "primary_ability_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmokeSmokeFruit",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smoke_smoke_fruit"
+    },
+    {
+      "name": "SmokeSmokeFruitFoodEaten",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smoke_smoke_fruit_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "SmokeSmokeActive",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.one_peice_mod.smoke_smoke_fruit": "SmokeSmokeFruit",
+      "item.one_peice_mod.gum_gum_fruit": "Gum Gum Fruit",
+      "item.one_peice_mod.chop_chop_fruit": "Chop Chop Fruit",
+      "key.mcreator.primary_ability": "Primary Ability"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "one_peice_mod",
+    "modName": "One Peice Mod",
+    "version": "1.0.0",
+    "author": "gbtapestry, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.onepeicemod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}
